@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align:center;
+}
+
+.beli {
+    height:18px;
+    width:18px;
+}
+
+.mythical {
+    color:red;
+    filter: drop-shadow(0 0mm 0.5mm red);
+}
+
+.dough {
+    height:30px;
+    width:30px;
+}
+
+header p {
+    font-size:25px;
+}
+
+.dragon{
+    height:30px;
+    width:30px;
+}
+
+.dough:hover {
+    height:70px;
+    width:70px;
+}
+
+.dragon:hover {
+    height:70px;
+    width:70px;
+}
+
+.venom {
+    color:purple;
+}
+
+.venom:hover {
+    content: url(https://i.redd.it/ac2lwbc3pe7a1.png);
+    height:100px;
+    width:100px;
+}
+
+.dealer{
+    height:100px;
+    width:100px;
+}
+
+nav a{
+    display: block;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first {
+    background-color: red;
+    border-radius : 3px;
+    text-decoration: none;
+    /* width: 10%; */
+    color:white;
+    font-size:25px;
+    /* width:100px; */
+    margin:20px;
+}
+
+.second {
+    background-color: green;
+    border-radius : 3px;
+    text-decoration: none;
+    /* width: 10%; */
+    color:white;
+    font-size:25px;
+    /* width:100px; */
+    margin:20px;
+}
+
+.lol {
+    display:flex;
+    justify-content: center;
+    background:gray;
+}
+
+.toxic {
+    color: purple;
+}
+
+.Tr {
+    color:purple;
+    filter: drop-shadow(0 0 0.5mm rgb(160, 0, 210));
+}
+
+.b {
+    display:flex;
+    justify-content: center;
+}
+
+
+.b p {
+    display:block;
+}
+
+.b_main{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 25px 5% 25px 5%;
+    border:2px solid black;
+}
+
+.x {
+    display: flex;
+    justify-self: center;
+}
+
+.x_main {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 25px 5% 25px 5%;
+    border:2px solid black;
+    /* width:150px;
+    height:100px; */
+}
+
+.supermain {
+    display: flex;
+    justify-content: center;
+}
